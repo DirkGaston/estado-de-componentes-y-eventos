@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/estado-de-componentes-y-eventos/static/css/main.51110027.css",
-    "main.js": "/estado-de-componentes-y-eventos/static/js/main.e1200e15.js",
-    "static/js/27.79ba2de6.chunk.js": "/estado-de-componentes-y-eventos/static/js/27.79ba2de6.chunk.js",
+    "main.js": "/estado-de-componentes-y-eventos/static/js/main.e27b7222.js",
     "index.html": "/estado-de-componentes-y-eventos/index.html"
   },
   "entrypoints": [
     "static/css/main.51110027.css",
-    "static/js/main.e1200e15.js"
+    "static/js/main.e27b7222.js"
   ]
 }
