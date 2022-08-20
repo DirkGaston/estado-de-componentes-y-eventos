@@ -2,6 +2,8 @@ import Button from "../components/Button";
 
 const Input = ({ setName, setPassword, name, password }) => {
   const { REACT_APP_CORRECT_PASSWORD } = process.env;
+  const { REACT_APP_DECOY_PASSWORD } = process.env;
+
   return (
     <div className="inputContainer">
       <div className="mb-6">
@@ -38,9 +40,10 @@ const Input = ({ setName, setPassword, name, password }) => {
       </div>
       {password === REACT_APP_CORRECT_PASSWORD ? (
         <Button name={name} password={password} />
-      ) : (
-        "Buena suerte con la contraseña Cris 🤡"
-      )}
+      ) : null}
+      {password === REACT_APP_DECOY_PASSWORD
+        ? "Buena suerte con la contraseña Cris 🤡"
+        : null}
     </div>
   );
 };
